@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etx1"
+        android:hint="Adını Yaz"
+        android:textColorHint="#fff"
+        android:padding="11dp"
+        android:textStyle="bold"
+        android:background="@drawable/edit_background"
+        android:layout_height="wrap_content">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Bana Bas ! "
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn11"
+        android:layout_height="wrap_content">
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/txt1"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>
