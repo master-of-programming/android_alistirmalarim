@@ -51,4 +51,10 @@
         android:layout_height="60dp">
     </EditText>
 </LinearLayout>
+<Button
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:text="Giriş Yap"
+    android:layout_height="wrap_content">
+</Button>
 </LinearLayout>
